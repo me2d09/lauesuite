@@ -1,0 +1,35 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+    padding: 9px 0;
+ }
+
+.jumbotron {
+	padding: 15px 30px;
+}
+
+@media only screen and (max-width : 320px) {
+	.jumbotron h1 {
+		font-size: 30px;
+		margin: 0 0 10px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

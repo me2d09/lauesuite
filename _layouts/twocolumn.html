@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="jumbotron">
+    <h1>{{page.title}}
+    </h1>
+    <p>{{page.subtitle}}
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="well sidebar-nav">
+            <div id="navSideBar">
+                <div class="nav flex-column nav-pills">
+                    {%- if page.leftmenu == "about" -%}
+                    <a class="nav-link {% if page.amenu == 'about' %}active{%- endif -%}" href="/about">About</a>
+                    <a class="nav-link {% if page.amenu == 'authors' %}active{%- endif -%}" href="/authors">Authors</a>
+                    <a class="nav-link {% if page.amenu == 'conditions' %}active{%- endif -%}" href="/conditions">Conditions of use</a>
+                    {%- elsif page.leftmenu == "docu" -%}
+                    <a class="nav-link {% if page.amenu == 'documentation' %}active{%- endif -%}" href="/documentation">Documentation</a>
+                    {%- endif -%}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        {{ content }}
+    </div>
+</div>

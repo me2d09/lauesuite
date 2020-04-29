@@ -1,0 +1,13 @@
+title: Esmeralda Laue Suite
+description: >- 
+  Esmeralda Laue Suite is a program for reading Laue image files
+  (TIF, bin, raw or hbin formats) in order to perform a series 
+  of tasks leading to final integration of mesured spots.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://lauesuite.com/" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-feed
+
+collections:
+  - downloads

@@ -1,0 +1,57 @@
+---
+layout: default
+nivo: true
+---
+<div class="slider-wrapper theme-default thinwide">
+    <div id="slider" class="nivoSlider">
+        <img src="/assets/img/all_windows.png" data-thumb="/media/34a44d90-6c39-4f4b-b949-2d7b0af48e69/wIsmwQ/slideshow/all_windows.png?h=50&amp;w=70" title="" alt="" />
+        <img src="/assets/img/3D.png" data-thumb="/media/88deb42b-2af1-4025-9d5e-e1dad791c808/jUKikA/slideshow/3D.png?h=50&amp;w=70" title="" alt="" />
+        <img src="/assets/img/refine.png" data-thumb="/media/e85c9309-e9de-4844-9f23-96cf50c46728/d2AN0w/slideshow/refine.png?h=50&amp;w=70" title="" alt="" />
+        <img src="/assets/img/Nd2RhIn8.JPG" data-thumb="/media/8e1ac669-15fd-498f-8b1d-bb30514395f7/38EqTQ/slideshow/Nd2RhIn8.JPG?h=50&amp;w=70" title="" alt="" />
+    </div>
+</div>
+<div class="jumbotron">
+    <h1><strong>Welcome to Esmeralda Laue Suite!</strong></h1>
+    <p>The Esmeralda program is the main GUI for the Esmeralda Laue Suite. It is a program in strong current development and a series of bugs are still present. The program allows reading Laue image files (TIF, bin, raw or hbin formats) in order to perform a series of tasks.<br />
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <h2><img class="float-right" src="/assets/img/Esmeralda-icon.png" />Welcome to Laue Suite project 
+        </h2>
+        <p>The present distribution of  <strong><em>Esmeralda Laue Suite</em></strong> contains a suite of crystallographic programs that will be increased regularly for handling Laue data. The different programs can be run either in stand alone form (from a console window or by clicking directly in a shortcut) or from the <strong>Esmeralda</strong> program.
+        </p>
+        <h3>How to become a betatester of this software?
+        </h3>
+        <p>Whole suite and its documentation is currently under developement. You are welcomed to join our team as a betatester:
+        </p>
+        <ol>
+            <li>register to <a href="http://forge.epn-campus.eu/account/register" target="_blank">EPN campus forge</a>.
+            </li>
+            <li>write e-mail to <a href="mailto:rodriguez-carvajal@ill.fr">Juan Rodriguez-Carvajal</a> with your registered username and he will add you as a Reporter to SXtalSoft.
+            </li>
+            <li>raise new issues in the Forge software and follow latest developement.
+            </li>
+        </ol>
+    </div>
+    <div class="col-md-4">
+        <div class="spots">
+            <div class="spot">
+                <div class="card bg-light mb-3">
+                    <div class="card-header">
+                        Download Laue Suite
+                      </div>
+                    <div class="list-group list-group-flush">
+                        {%- for file in site.downloads -%}
+                        <a class="list-group-item list-group-item-action" href="{{file.url}}">{{file.name}}<small class="text-muted"> ({{file.date}})</small></a>
+                        {%- endfor -%}
+                    </div>
+                    <div class="card-body">
+                    <p>NOTE: The newest version is still in beta state and some features are missing.</p>
+                    <p><a href="https://forge.epn-campus.eu/projects/esmeralda/files">See repository for older versions.</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
