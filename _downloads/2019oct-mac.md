@@ -1,5 +1,5 @@
 ---
-name: Vers. June 2020 (macOS Catalina ready)
+name: Vers. June 2020 (macOS - Catalina ready)
 date: 21/06/2020
 url: https://forge.epn-campus.eu/attachments/download/5353/Esmeralda4Mac_v183.dmg
 ---
