@@ -43,7 +43,7 @@ nivo: true
                       </div>
                     <div class="list-group list-group-flush">
                         {%- for file in site.downloads -%}
-                        <a class="list-group-item list-group-item-action" href="{{file.url}}">{{file.name}}<small class="text-muted"> ({{file.date}})</small></a>
+                        <a class="list-group-item list-group-item-action" href="{{file.link}}">{{file.name}}<br /><small class="text-muted">({{file.date  | date_to_long_string }})</small></a>
                         {%- endfor -%}
                     </div>
                     <div class="card-body">
